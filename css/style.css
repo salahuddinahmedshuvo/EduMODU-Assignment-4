@@ -1,0 +1,216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* Main code Start here */
+
+.header-section {
+  width: 100%;
+  background: url("../img/slider.png") center center no-repeat;
+  background-size: cover;
+}
+.header-section .menu {
+  width: 100%;
+}
+.menu .bg-light {
+  background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+  color: #5a6e79;
+  margin: 0px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover {
+  color: #ffc178;
+  border-bottom: 2px solid #ffc178;
+}
+.menu .navbar-light .navbar-nav .active > .nav-link {
+  color: #ffc178;
+  border-bottom: 2px solid #ffc178;
+}
+.menu .navbar-light .navbar-nav .btn-info {
+  padding: 10px 35px;
+  color: #ffc178;
+  background: #fff;
+  border: 0px;
+  border-radius: 30px;
+  font-size: 15px;
+  transition: 1s ease-in;
+}
+.menu .navbar-light .navbar-nav .btn-info:hover,
+.menu .navbar-light .navbar-nav .btn-info:focus {
+  color: #fff;
+  background: #ffc178;
+  border: 0px;
+}
+.header-section .banner {
+  width: 100%;
+  padding: 60px 0px 170px;
+}
+.banner .banner-inner {
+  width: 100%;
+  padding: 0px 0px 150px;
+}
+.banner .banner-inner h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #ffc178;
+}
+.banner .banner-inner p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5a6e79;
+}
+.banner .banner-inner .btn-info {
+    padding: 10px 35px;
+    margin-top: 10px;
+    color: #ffffff;
+    background: #ffc178;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 1s ease-in;
+}
+.banner .banner-inner .btn-info:hover,
+.banner .banner-inner .btn-info:focus {
+  color: #ffc178;
+  background: #fff;
+  border: 0px;
+}
+/* Feature Section Start */
+.feature-section{
+    width: 100%;
+}
+.feature-section .title{
+width: 100%;
+padding: 0px 0px 30px;
+text-align: center;
+}
+.feature-section .title h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #252c3a;
+
+}
+.feature-section .title p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5a6e79;
+}
+.feature-section .service-inner{
+width: 100%;
+padding: 50px 30px;
+text-align: center;
+}
+.feature-section .bg-1{
+    background: #f9703a;
+}
+.feature-section .bg-2{
+    background: #80be41;
+}
+.feature-section .bg-3{
+    background: #ffb157;
+}
+.service-inner h4{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+/* Limitless  Section Start*/
+.limitless{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-img{
+    width: 100%;
+}
+.inner-text{
+    width: 100%;
+}
+.inner-text h2{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #252c3a;
+    padding-bottom: 15px;
+}
+.inner-text p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #5a6e79;
+}
+.student{
+    width: 100%;
+    padding: 20px 0px;
+}
+.courses{
+    width: 100%;
+    padding: 20px 0px;
+}
+.hour{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.student h2{
+   font-size: 50px;
+   margin-bottom: -5px;
+   font-weight: 700;
+   color: #ffba00; 
+}
+.courses h2{
+    font-size: 50px;
+    margin-bottom: -5px;
+    font-weight: 700; 
+    color: #ff5f72; 
+}
+.hour h2{
+    font-size: 50px;
+    margin-bottom: -5px;
+    font-weight: 700; 
+    color: #43cb83; 
+}
+
+.student p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffba00;  
+text-transform: capitalize;
+}
+.courses p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ff5f72; 
+text-transform: capitalize;
+}
+.hour p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #43cb83; 
+    text-transform: capitalize;
+}
